@@ -1,21 +1,16 @@
-const showStars = (nbBase, reverse) => {
+const showStars = (nbBase, reverse, pyramid) => {
   if (!reverse) {
     for (let i = 1; i <= nbBase; ++i) {
-      console.log('*'.repeat(i))
+      console.log(pyramid.repeat(i))
     }
   } else {
     for (let i = nbBase; i >= 1; --i) {
-      console.log('*'.repeat(i))
+      console.log(pyramid.repeat(i))
     }
   }
 }
 
 
-showStars(5, true)
+const nbBase = 20
 
-
-showStars(10, false)
-
-const nbBase = 15
-
-showStars(nbBase, true)
+showStars(nbBase, false, 'A')
