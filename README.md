@@ -1,0 +1,12 @@
+# MyNewProject
+# exo-type1-js
+# exo-types-boolean
+# exo-numbers-strings
+# exo-strings-arrays
+# exos-strings-arrays
+# exo-crackmes
+# exo-crackmes
+# exo-crackmes
+# exo-expressions-conditions
+# exo-expressions-conditions
+# exo-fonctions
